@@ -1,0 +1,106 @@
+/* Color options (picked with https://uicolors.app/create) */
+
+.cr-accent-950 {background-color: #11295a !important}
+.cr-accent-900 {background-color: #144194 !important}
+.cr-accent-800 {background-color: #1149bc !important}
+.cr-accent-700 {background-color: #0c5ae9 !important}
+.cr-accent-600 {background-color: #0d6efd !important}
+.cr-accent-500 {background-color: #2a91ff !important}
+.cr-accent-400 {background-color: #52b4ff !important}
+.cr-accent-300 {background-color: #89cfff !important}
+.cr-accent-200 {background-color: #b9e0ff !important}
+.cr-accent-100 {background-color: #d8eeff !important}
+.cr-accent-50  {background-color: #eef8ff !important}
+.cr-main-950   {background-color: #25262c !important}
+.cr-main-900   {background-color: #40434c !important}
+.cr-main-800   {background-color: #40434c !important}
+.cr-main-700   {background-color: #40434c !important}
+.cr-main-600   {background-color: #5b5f6e !important}
+.cr-main-500   {background-color: #707585 !important}
+.cr-main-400   {background-color: #8f94a1 !important}
+.cr-main-300   {background-color: #b6b9c3 !important}
+.cr-main-200   {background-color: #d8dadf !important}
+.cr-main-100   {background-color: #eeeef0 !important}
+.cr-main-50    {background-color: #f7f8f8 !important}
+
+.txtcr-accent-950 {color: #11295a !important}
+.txtcr-accent-900 {color: #144194 !important}
+.txtcr-accent-800 {color: #1149bc !important}
+.txtcr-accent-700 {color: #0c5ae9 !important}
+.txtcr-accent-600 {color: #0d6efd !important}
+.txtcr-accent-500 {color: #2a91ff !important}
+.txtcr-accent-400 {color: #52b4ff !important}
+.txtcr-accent-300 {color: #89cfff !important}
+.txtcr-accent-200 {color: #b9e0ff !important}
+.txtcr-accent-100 {color: #d8eeff !important}
+.txtcr-accent-50  {color: #eef8ff !important}
+.txtcr-main-950   {color: #25262c !important}
+.txtcr-main-900   {color: #40434c !important}
+.txtcr-main-800   {color: #40434c !important}
+.txtcr-main-700   {color: #40434c !important}
+.txtcr-main-600   {color: #5b5f6e !important}
+.txtcr-main-500   {color: #707585 !important}
+.txtcr-main-400   {color: #8f94a1 !important}
+.txtcr-main-300   {color: #b6b9c3 !important}
+.txtcr-main-200   {color: #d8dadf !important}
+.txtcr-main-100   {color: #eeeef0 !important}
+.txtcr-main-50    {color: #f7f8f8 !important}
+
+#main-page-margins {
+    min-height: 100vh;
+}
+
+body nav:first-of-type {
+    position: fixed !important;
+    top: 0;
+    width: 100%;
+    z-index: 999;
+}
+
+.nav-item {
+    padding-left: 0.3rem;
+    padding-right: 0.3rem;
+}
+
+#main-page {
+    margin-top: 80px;
+    margin-bottom: 15px;
+    width: 1100px;
+    padding: 30px;
+}
+
+.tile-section {
+    flex-wrap: wrap;
+}
+
+.card {
+    margin: 10px;
+    width: 320px !important;
+}
+
+.card .card-title {
+    font-weight: 800;
+    font-size: 18px;
+}
+
+.card .card-img-top {
+    height: 200px;
+    object-fit: cover;
+    object-position: center;
+}
+
+.card .card-info {
+    display: flex;
+    align-items: flex-end;
+    justify-content: space-between;
+    padding-bottom: 12px;
+}
+
+.card .card-info p {
+    margin-bottom: 0px;
+    margin-top: 0px;
+}
+
+#main-page .recipe-section+.recipe-section {
+    padding-top: 20px;
+}

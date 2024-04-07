@@ -1,0 +1,75 @@
+.recipe-header {
+    display: flex;
+    margin: -30px;
+    margin-left: 18px;
+    margin-right: 18px;
+}
+
+.recipe-header .recipe-info-wrapper {
+    display: flex;
+    justify-items: center;
+    align-content: center;
+    flex-grow: 0;
+    margin: 0px;
+    padding: 20px;
+    border: #adb5bd solid 1px;
+}
+
+.recipe-header .main-img {
+    flex-grow: 1;
+    object-fit: cover;
+    object-position: center;
+    height: 300px;
+}
+
+.recipe-header .recipe-info {
+    margin: 0px;
+    padding: 20px;
+    border: #adb5bd solid 1px;
+    border-radius: 5px;
+}
+
+.recipe-header .recipe-info h3 {
+    padding: 15px;
+    font-weight: 800;
+    font-size: 24px;
+}
+
+.recipe-header .recipe-info p {
+    margin: 0px;
+}
+
+.recipe-text {
+    padding: 30px;
+    margin-top: 50px;
+}
+
+.recipe-text p {
+    margin: 10px;
+}
+
+.editor-sections {
+    display: flex;
+    justify-items: center;
+}
+
+.editor-sections label {
+    margin-top: 0px;
+}
+
+.editor-sections div {
+    padding: 10px;
+    width: 550px;
+    padding-top: 0;
+    margin-bottom: 0;
+    margin-left: 0px;
+    margin-right: 0px;
+}
+
+.editor-sections .stars {
+    padding: 0px;
+}
+
+.editor-sections .stars button {
+    color: #000000 !important;
+}

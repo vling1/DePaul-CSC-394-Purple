@@ -1,0 +1,98 @@
+<!doctype html>
+<html lang="en" data-bs-theme="auto">
+
+<head>
+  <script src="../assets/js/color-modes.js"></script>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="">
+  <meta name="author" content="Team Purple">
+  <meta name="generator" content="Hugo 0.122.0">
+  <title>Editor</title>
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@docsearch/css@3">
+  <link rel="stylesheet" href="css/bootstrap.min.css">
+  <link rel="stylesheet" href="css/basestyle.css">
+  <link rel="stylesheet" href="css/recipe-viewer.css">
+</head>
+
+<body>
+  <!-- Navigation bar -->
+  <nav class="navbar navbar-expand-lg bg-body-tertiary flex-column flex-sm-row justify-content-between cr-accent-700 shadow">
+    <div class="container-fluid">
+      <!-- Navigation bar: Left -->
+      <div class="collapse navbar-collapse justify-content-start" id="navbarNavLeft">
+        <ul class="navbar-nav">
+          <!-- Logo -->
+          <a href="index.html"><img src="img/logo.png" height="40px" style="filter: invert(100%); margin-top: 2px"></a>
+        </ul>
+      </div>
+      <!-- Navigation bar: Right -->
+      <div class="collapse navbar-collapse justify-content-end" id="navbarNavRight">
+        <ul class="navbar-nav">
+          <li class="nav-item">
+            <a type="back" class="btn btn-primary" onclick="history.back()">Back</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+  <!-- Main page -->
+  <section id="main-page-margins" class="d-flex justify-content-center cr-main-100">
+    <section id="main-page" class="cr-main-50">
+      <div>
+        <h3>Edit recipe</h3>
+        <hr>
+        <!-- Fields -->
+        <div class="editor-sections">
+          <div>
+            <label for="formFile" class="form-label" id="recipeTitle">Title</label>
+            <input class="form-control" type="text" aria-label="default input example" id="recipeTitle">
+          </div>
+          <div>
+            <label for="formFile" class="form-label" id="formFile">Recipe banner</label>
+            <input class="form-control" type="file" id="formFile">
+          </div>
+        </div>
+        <div class="editor-sections">
+          <div>
+            <label for="formFile" class="form-label" id="cookingTime">Cooking time</label>
+            <input class="form-control" type="text" aria-label="default input example" id="cookingTime">
+          </div>
+          <div>
+            <label for="difficulty" class="form-label" id="difficulty">Difficulty ranting</label>
+            <div class="stars">
+              <button type="button" class="btn btn-secondary" id="1star">★</button>
+              <button type="button" class="btn btn-secondary" id="2star">★</button>
+              <button type="button" class="btn btn-secondary" id="3star">★</button>
+              <button type="button" class="btn btn-secondary" id="4star">★</button>
+              <button type="button" class="btn btn-secondary" id="5star">★</button>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- Recipe text -->
+      <label for="formFile" class="form-label" id="recipeTitle">Recipe text</label>
+      <textarea  class="form-control" type="text" aria-label="default input example" id="recipeTitle" style="height: 500px"></textarea>
+      <!-- Delete and Save-->
+      <div class="d-flex justify-content-end m-2">
+        <button type="button" class="btn btn-danger m-1" id="delete">Delete</button>
+        <button type="button" class="btn btn-success m-1" id="save">Save</button>
+      </div>
+    </section>
+  </section>
+  <!-- Footer -->
+  <nav class="navbar navbar-expand-lg bg-body-tertiary flex-column flex-sm-row justify-content-between cr-accent-800">
+      <!-- Navigation bar: Center -->
+      <div class="collapse navbar-collapse justify-content-center d-flex align-items-start" id="navbarNavCenter">
+        <ul class="navbar-nav align-items-center">
+          <li style="padding: 10px; color: #fff">
+            Demo by Team Purple
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+</body>
+
+</html>
