@@ -1,6 +1,6 @@
 # DePaul-CSC-394-Purple
 
-## Concept Demo
+<h2><a href="https://vling1.github.io/DePaul-CSC-394-Purple/Demo/">Concept Demo</a></h2>
 
 Languages and Tools:
 * `HTML` 
